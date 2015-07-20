@@ -43,6 +43,7 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '3.3.3'
+  gem 'guard-rspec'
 end
 
 group :test do
