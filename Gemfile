@@ -36,7 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'byebug', '5.0.0'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -45,15 +45,15 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '3.3.3'
-  gem 'guard-rspec'
+  gem 'guard-rspec', '4.6.2'
   gem 'spork-rails'
-  gem 'guard-spork'
+  gem 'guard-spork', '2.1.0'
   gem 'childprocess', '0.5.6'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara'
+  gem 'capybara', '2.4.4'
 end
 
 group :production do

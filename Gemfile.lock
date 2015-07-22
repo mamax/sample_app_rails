@@ -232,12 +232,12 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (= 2.3.2.0)
-  byebug
-  capybara
+  byebug (= 5.0.0)
+  capybara (= 2.4.4)
   childprocess (= 0.5.6)
   coffee-rails (~> 4.1.0)
-  guard-rspec
-  guard-spork
+  guard-rspec (= 4.6.2)
+  guard-spork (= 2.1.0)
   jbuilder (~> 2.0)
   jquery-rails
   pg (= 0.17.1)
