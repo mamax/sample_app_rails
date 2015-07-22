@@ -231,6 +231,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport (= 4.2.1)
   bootstrap-sass (= 2.3.2.0)
   byebug (= 5.0.0)
   capybara (= 2.4.4)
@@ -243,6 +244,7 @@ DEPENDENCIES
   pg (= 0.17.1)
   rails (= 4.2.1)
   rails_12factor (= 0.0.2)
+  rspec-core
   rspec-rails (= 3.3.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

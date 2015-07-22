@@ -45,10 +45,12 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '3.3.3'
+  gem 'rspec-core'
   gem 'guard-rspec', '4.6.2'
   gem 'spork-rails'
   gem 'guard-spork', '2.1.0'
   gem 'childprocess', '0.5.6'
+  gem 'activesupport', '4.2.1'
 end
 
 group :test do
